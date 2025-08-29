@@ -1,6 +1,12 @@
 import { Link } from "react-router-dom"
 
 const Footer = () => {
+    const scrolltoTop = () => {
+        window.scrollTo({
+            top: 0,
+            behaviour:'smooth'
+        })
+    }
     return (
         <>
             <footer className="main-footer footer-style-three pt-10 mt-60">
@@ -16,8 +22,8 @@ const Footer = () => {
                                     </div>
                                     <div className="widget-content">
                                         <p className="text">
-                                            At vero eos et accusamus iusto odio dignissimos ducimus
-                                            blanditiise
+                                            Trusted education consulting company helping students achieve study abroad
+                                            dreams with expert guidance in admissions, visas, and pre-departure support
                                         </p>
 
                                     </div>
@@ -25,94 +31,76 @@ const Footer = () => {
                             </div>
                             <div className="col-lg-8">
                                 <div className="row g-4 g-xl-0">
-                                    <div className="col-sm-6 col-xl-3 footer-column">
-                                        <div className="footer-widget links-widget">
-                                            <h4 className="widget-title">Resource</h4>
-                                            <div className="widget-content">
-                                                <ul className="user-links">
-                                                    <li>
-                                                        <a href="#0">Product</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#0">Services</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#0">About Us</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#0">Benefits</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col-sm-6 col-xl-3 footer-column">
+                                    <div className="col-sm-6 col-xl-4 footer-column">
                                         <div className="footer-widget links-widget">
                                             <h4 className="widget-title">Quick Link</h4>
                                             <div className="widget-content">
                                                 <ul className="user-links">
                                                     <li>
-                                                        <a href="#0">Features</a>
+                                                        <a href="#0">Home</a>
                                                     </li>
                                                     <li>
-                                                        <a href="#0">Pricing Plan</a>
+                                                        <a href="#0">About Us</a>
                                                     </li>
                                                     <li>
-                                                        <a href="#0">Best Program</a>
+                                                        <a href="#0">Contact</a>
                                                     </li>
+
+
                                                     <li>
-                                                        <a href="#0">Press Kit</a>
+                                                        <a href="#0">Point Circulator</a>
                                                     </li>
                                                 </ul>
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="col-sm-6 col-xl-3 footer-column">
+                                    <div className="col-sm-6 col-xl-4 footer-column">
                                         <div className="footer-widget links-widget">
-                                            <h4 className="widget-title">Company</h4>
+                                            <h4 className="widget-title">Services</h4>
                                             <div className="widget-content">
                                                 <ul className="user-links">
                                                     <li>
-                                                        <a href="#0">About</a>
+                                                        <a href="#0">Student Visa</a>
                                                     </li>
                                                     <li>
-                                                        <a href="#0">Team Member</a>
+                                                        <a href="#0">Health Insurance</a>
                                                     </li>
                                                     <li>
-                                                        <a href="#0">Reviews</a>
+                                                        <a href="#0">Student Visa Information</a>
                                                     </li>
                                                     <li>
-                                                        <a href="#0">Latest News</a>
+                                                        <a href="#0">Student visa extension</a>
                                                     </li>
                                                 </ul>
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="col-sm-6 col-xl-3 footer-column">
+
+                                    <div className="col-sm-6 col-xl-4 footer-column">
                                         <div className="footer-widget links-widget contact-widget">
                                             <h4 className="widget-title">Contact</h4>
                                             <div className="widget-content">
                                                 <ul className="user-links">
                                                     <li>
                                                         <i className="fa-light fa-location-dot" />
-                                                        <a href="#0">
-                                                            55 Main Street, 2nd block Melbourne, Australia
-                                                        </a>
+                                                        <Link to="https://maps.app.goo.gl/Z22NvmRGKNNMCdJw8" target="_blank">
+                                                            C-25, Aliganj, Lucknow - 226024, Uttar Pradesh, India.
+                                                        </Link>
                                                     </li>
                                                     <li>
                                                         <i className="fa-light fa-envelope" />
-                                                        <a href="/cdn-cgi/l/email-protection#1b686e6b6b74696f5b7c767a727735787476">
+                                                        <Link to="mailto:info@manyversity.com">
                                                             <span
                                                                 className="__cf_email__"
                                                                 data-cfemail="aedddbdedec1dcdaeec9c3cfc7c280cdc1c3"
                                                             >
-                                                                [email&nbsp;protected]
+                                                                info@manyversity.com
                                                             </span>
-                                                        </a>
+                                                        </Link>
                                                     </li>
                                                     <li>
                                                         <i className="fa-light fa-phone-flip" />
-                                                        <a href="tel:+0001234455">+000 (123) 44 55</a>
+                                                        <a href="tel:+91-8004008123">+91-8004008123</a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -128,20 +116,21 @@ const Footer = () => {
                         </p>
                         <ul className="footer-nav">
                             <li>
-                                <a href="#0">Faqs</a>
+                                <a href="#0"><i className="fa-brands fa-whatsapp"></i></a>
                             </li>
                             <li>
-                                <a href="#0">Setting</a>
+                                <a href="#0"><i className="fa-brands fa-facebook-f"></i></a>
                             </li>
                             <li>
-                                <a href="#0">Privacy</a>
+                                <a href="#0"><i className="fa-brands fa-instagram"></i></a>
                             </li>
                             <li>
-                                <a href="#0">Contact</a>
+                                <a href="#0"><i className="fa-brands fa-x-twitter"></i></a>
                             </li>
+
                         </ul>
-                        <button className="goTop-btn">
-                            <i className="fa-solid fa-angles-up" />{" "}
+                        <button className="goTop-btn" onClick={scrolltoTop}>
+                            <i className="fa-solid fa-angles-up" />
                             <i className="fa-solid fa-angles-up" />
                         </button>
                     </div>

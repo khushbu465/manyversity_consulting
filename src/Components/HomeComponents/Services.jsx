@@ -125,7 +125,7 @@ const Services = () => {
                 </div>
             </section>
             <Consulting />
-
+            {/* <Client /> */}
             <section className="objective-section pt-120 pb-80 d-none">
                 <div className="container">
                     <div className="sec-title mb-50">
@@ -407,7 +407,7 @@ const Services = () => {
                     </div>
                 </div>
             </section>
-            <Client />
+
             <section className="case-section-three d-none">
                 <div className="sec-shape">
                     <img
@@ -579,7 +579,7 @@ const Services = () => {
                     </div>
                 </div>
             </section>
-       </>
+        </>
     )
 }
 

@@ -886,13 +886,6 @@ var THEMEMASCOT = {};
 		});
 	}
 
-	// Scroll to Top Button
-	if ($(".goTop-btn").length) {
-		$(".goTop-btn").on("click", function () {
-			$("html, body").animate({ scrollTop: 0 }, 500);
-		});
-	}
-
 	// Scroll to 1000px Down Button
 	if ($(".goBottom-btn").length) {
 		$(".goBottom-btn").on("click", function () {

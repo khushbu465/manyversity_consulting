@@ -1,10 +1,11 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import Breadcrumb from '../Common/Breadcrumb'
 
 const AboutUs = () => {
-  return (
-    <>
-      <section className="about-section-three pt-120 pb-120">
+    return (
+        <>
+            <Breadcrumb title="About Us" />
+            <section className="about-section-three pt-120 pb-120">
                 <div className="container">
                     <div className="row g-5 g-xxl-0">
                         <div className="col-xl-6 image-column">
@@ -42,15 +43,146 @@ const AboutUs = () => {
                                     data-wow-delay="400ms"
                                     data-wow-duration="1500ms"
                                 >
-                                   
+
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-    </>
-  )
+            <section
+                className="growth-section pt-120 pb-120 d-none" 
+                style={{ backgroundImage: "url(https://img.freepik.com/premium-vector/white-abstract-shapes-background_52683-55977.jpg"}}
+            >
+                <div className="container">
+                    <div className="sec-title pb-50 mb-50">
+                        <h6
+                            className="sub-title wow fadeInUp"
+                            data-wow-delay="00ms"
+                            data-wow-duration="1500ms"
+                        >
+                            Growth Rate
+                        </h6>
+                        <div className="flex-content">
+                            <h2 className="title text-white wow splt-txt" data-splitting="">
+                                Building Connections for grow <br /> Limitless Opportunities.
+                            </h2>
+                            <a
+                                className="btn-one-light border-0 rounded-0 wow fadeInUp"
+                                data-wow-delay="200ms"
+                                data-wow-duration="1500ms"
+                                href="page-about.html"
+                            >
+                                Discover More
+                            </a>
+                        </div>
+                    </div>
+                    <div className="row g-5">
+                        <div
+                            className="col-xl-4 wow fadeInLeft"
+                            data-wow-delay="00ms"
+                            data-wow-duration="1500ms"
+                        >
+                            <div className="growth-block">
+                                {/* pie-graph */}
+                                <div className="pie-graph">
+                                    <div className="graph-outer">
+                                        <input
+                                            type="text"
+                                            className="dial"
+                                            data-fgcolor="#C6D936"
+                                            data-bgcolor="#fff"
+                                            data-width={120}
+                                            data-height={120}
+                                            data-linecap="normal"
+                                            defaultValue={90}
+                                        />
+                                        <div className="inner-text count-box">
+                                            <span className="count-text" data-stop={90} data-speed={2000} />
+                                            %
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="content-box">
+                                    <h4 className="title">Scalable Solutions</h4>
+                                    <p className="text">
+                                        End to end fiber optic cable nnectivity for stable
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            className="col-xl-4 wow fadeInLeft"
+                            data-wow-delay="200ms"
+                            data-wow-duration="1500ms"
+                        >
+                            <div className="growth-block">
+                                {/* pie-graph */}
+                                <div className="pie-graph">
+                                    <div className="graph-outer">
+                                        <input
+                                            type="text"
+                                            className="dial"
+                                            data-fgcolor="#C6D936"
+                                            data-bgcolor="#fff"
+                                            data-width={120}
+                                            data-height={120}
+                                            data-linecap="normal"
+                                            defaultValue={95}
+                                        />
+                                        <div className="inner-text count-box">
+                                            <span className="count-text" data-stop={95} data-speed={2000} />
+                                            %
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="content-box">
+                                    <h4 className="title">Automation Features</h4>
+                                    <p className="text">
+                                        End to end fiber optic cable nnectivity for stable
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            className="col-xl-4 wow fadeInLeft"
+                            data-wow-delay="400ms"
+                            data-wow-duration="1500ms"
+                        >
+                            <div className="growth-block">
+                                {/* pie-graph */}
+                                <div className="pie-graph">
+                                    <div className="graph-outer">
+                                        <input
+                                            type="text"
+                                            className="dial"
+                                            data-fgcolor="#C6D936"
+                                            data-bgcolor="#fff"
+                                            data-width={120}
+                                            data-height={120}
+                                            data-linecap="normal"
+                                            defaultValue={75}
+                                        />
+                                        <div className="inner-text count-box">
+                                            <span className="count-text" data-stop={75} data-speed={2000} />
+                                            %
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="content-box">
+                                    <h4 className="title">24/7 Support</h4>
+                                    <p className="text">
+                                        End to end fiber optic cable nnectivity for stable
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </>
+    )
 }
 
 export default AboutUs

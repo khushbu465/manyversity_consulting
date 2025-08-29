@@ -18,18 +18,18 @@ const Header = () => {
                         <nav className="nav main-menu">
                             <ul className="navigation">
                                 <li>
-                                    <NavLink to="/" className={({ isActive }) => (isActive ? "active" : "")}>
+                                    <NavLink to="/">
                                         Home
                                     </NavLink>
                                 </li>
                                 <li>
-                                    <NavLink to="/" className={({ isActive }) => (isActive ? "active" : "")}>
+                                    <NavLink to="/about">
                                         About Us
                                     </NavLink>
                                 </li>
 
                                 <li className="dropdown">
-                                    <NavLink to="/" className={({ isActive }) => (isActive ? "active" : "")}>
+                                    <NavLink to="/">
                                         Student Visa &nbsp;<i className="fa-regular fa-angle-down" />
                                     </NavLink>
                                     <ul>
@@ -44,7 +44,7 @@ const Header = () => {
                                 </li>
 
                                 <li className="dropdown">
-                                    <NavLink to="/" className={({ isActive }) => (isActive ? "active" : "")}>
+                                    <NavLink to="/">
                                         Student Services &nbsp;<i className="fa-regular fa-angle-down" />
                                     </NavLink>
                                     <ul>
@@ -56,7 +56,7 @@ const Header = () => {
                                 </li>
 
                                 <li className="dropdown">
-                                    <NavLink to="/" className={({ isActive }) => (isActive ? "active" : "")}>
+                                    <NavLink to="/">
                                         Point Calculator &nbsp;<i className="fa-regular fa-angle-down" />
                                     </NavLink>
                                     <ul>
@@ -65,7 +65,7 @@ const Header = () => {
                                 </li>
 
                                 <li>
-                                    <NavLink to="/" className={({ isActive }) => (isActive ? "active" : "")}>
+                                    <NavLink to="/">
                                         Contact
                                     </NavLink>
                                 </li>
