@@ -222,7 +222,7 @@ h6 {
 h1 {
   font-size: var(--h1-font-size);
   font-weight: var(--h1-font-weight);
-  line-height: var(--line-height-heading-h1);
+  line-height: var(--line-height-heading-h2);
 }
 
 h2 {
@@ -269,9 +269,31 @@ p a:not(.button):not(.btn):focus {
   text-decoration: underline;
 }
 
+h5 {
+  font-family: var(--text-font);
+}
+
 /* ___________newcss_____ */
+.text_green {
+  color: var(--theme-color1) !important;
+}
+.text_list li{
+  list-style-type: circle;
+}
+p {
+  color: #c0bebe;
+}
+
+ul li {
+  color: #c0bebe;
+}
+
 .text {
   color: #c0bebe;
+}
+
+.mission_visiontxt p {
+  text-align: justify;
 }
 
 /* -------- other ---------- */
@@ -11427,9 +11449,13 @@ Section Title
   background-size: cover;
 }
 
-.growth-section.style-two::after {
-  background: radial-gradient(95.51% 264.21% at 92.63% 41.85%, rgba(0, 7, 31, 0) 0%, rgba(6, 50, 50, 0.98) 99.98%, rgba(6, 50, 50, 0.98) 99.99%);
+.rgba_wrapper {
+  background: rgba(6, 50, 50, 0.7);
 }
+
+/* .growth-section.style-two::after {
+  background: radial-gradient(135%, rgba(0, 7, 31, 0) 0%, rgba(6, 50, 50, 0.98) 99.98%, rgba(6, 50, 50, 0.98) 99.99%);
+} */
 
 .growth-section .sec-shape {
   position: absolute;
@@ -13484,9 +13510,11 @@ CONTACT Details
 .service-section-two.home6-style .service-block-two .inner-box .icon {
   background-color: var(--theme-color7);
 }
-.service-block-two .inner-box .icon img{
+
+.service-block-two .inner-box .icon img {
   height: 80px !important;
 }
+
 .service-section-two.home6-style .service-block-two .inner-box .icon svg path {
   fill: var(--theme-color-white);
 }
@@ -24161,7 +24189,7 @@ Page Title
   top: 0;
   height: 100%;
   width: 100%;
-  background: radial-gradient(95.51% 264.21% at 92.63% 41.85%, rgba(0, 7, 31, 0) 0%, rgba(4, 44, 42, 0.98) 99.98%, rgba(4, 44, 42, 0.98) 99.99%);
+  background: radial-gradient(95.51% 264.21% at 92.63% 41.85%, rgba(4, 44, 42, 0.8) 0%, rgba(4, 44, 42, 0.98) 100%, rgba(4, 44, 42, 0.98) 100%);
   content: "";
   mix-blend-mode: normal;
 }

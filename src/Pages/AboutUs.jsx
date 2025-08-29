@@ -1,5 +1,6 @@
 import React from 'react'
 import Breadcrumb from '../Common/Breadcrumb'
+import { Row, Col } from 'reactstrap'
 
 const AboutUs = () => {
     return (
@@ -51,136 +52,46 @@ const AboutUs = () => {
                 </div>
             </section>
             <section
-                className="growth-section pt-120 pb-120 d-none" 
-                style={{ backgroundImage: "url(https://img.freepik.com/premium-vector/white-abstract-shapes-background_52683-55977.jpg"}}
+                className="growth-section mb-5"
+                style={{ backgroundImage: "url(https://w0.peakpx.com/wallpaper/538/379/HD-wallpaper-white-dots-shape-background-white-background.jpg" }}
             >
-                <div className="container">
-                    <div className="sec-title pb-50 mb-50">
-                        <h6
-                            className="sub-title wow fadeInUp"
-                            data-wow-delay="00ms"
-                            data-wow-duration="1500ms"
-                        >
-                            Growth Rate
-                        </h6>
-                        <div className="flex-content">
-                            <h2 className="title text-white wow splt-txt" data-splitting="">
-                                Building Connections for grow <br /> Limitless Opportunities.
-                            </h2>
-                            <a
-                                className="btn-one-light border-0 rounded-0 wow fadeInUp"
-                                data-wow-delay="200ms"
+                <div class="rgba_wrapper pt-80 pb-100 ">
+                    <div className="container">
+                        <div className="sec-title center pb-50 mb-50">
+                            <h6
+                                className="sub-title wow fadeInUp"
+                                data-wow-delay="00ms"
                                 data-wow-duration="1500ms"
-                                href="page-about.html"
                             >
-                                Discover More
-                            </a>
+                                Mission & Vision
+                            </h6>
+
                         </div>
-                    </div>
-                    <div className="row g-5">
-                        <div
-                            className="col-xl-4 wow fadeInLeft"
-                            data-wow-delay="00ms"
-                            data-wow-duration="1500ms"
-                        >
-                            <div className="growth-block">
-                                {/* pie-graph */}
-                                <div className="pie-graph">
-                                    <div className="graph-outer">
-                                        <input
-                                            type="text"
-                                            className="dial"
-                                            data-fgcolor="#C6D936"
-                                            data-bgcolor="#fff"
-                                            data-width={120}
-                                            data-height={120}
-                                            data-linecap="normal"
-                                            defaultValue={90}
-                                        />
-                                        <div className="inner-text count-box">
-                                            <span className="count-text" data-stop={90} data-speed={2000} />
-                                            %
-                                        </div>
-                                    </div>
+                        <Row>
+                            <Col md={6}>
+                                <h2 className="title text-white wow splt-txt" data-splitting="">
+                                    Mission
+                                </h2>
+
+                                <div class="description mission_visiontxt">
+                                    <p className='text'>
+                                        Our mission is to simplify the journey of studying abroad by providing students with expert counseling, transparent guidance, and end-to-end support. From choosing the right course and university to navigating visa processes and cultural adjustments, we aim to make international education accessible, affordable, and stress-free for every student. With a commitment to integrity and professionalism, we strive to empower learners to achieve their academic goals and build successful global careers.</p>
                                 </div>
-                                <div className="content-box">
-                                    <h4 className="title">Scalable Solutions</h4>
-                                    <p className="text">
-                                        End to end fiber optic cable nnectivity for stable
-                                    </p>
+                            </Col>
+                            <Col md={6}>
+                                <h2 className="title text-white wow splt-txt" data-splitting="">
+                                    Vision
+                                </h2>
+                                <div class="description mission_visiontxt">
+                                    <p className='text'>
+                                        Our vision is to create a future where every student has the opportunity to pursue quality education beyond borders. We aspire to become a trusted leader in global education consulting, recognized for building pathways that connect talent with international opportunities. By fostering confidence, cultural awareness, and career readiness, we envision shaping a generation of students who contribute positively to the world through knowledge, innovation, and global collaboration.</p>
                                 </div>
-                            </div>
-                        </div>
-                        <div
-                            className="col-xl-4 wow fadeInLeft"
-                            data-wow-delay="200ms"
-                            data-wow-duration="1500ms"
-                        >
-                            <div className="growth-block">
-                                {/* pie-graph */}
-                                <div className="pie-graph">
-                                    <div className="graph-outer">
-                                        <input
-                                            type="text"
-                                            className="dial"
-                                            data-fgcolor="#C6D936"
-                                            data-bgcolor="#fff"
-                                            data-width={120}
-                                            data-height={120}
-                                            data-linecap="normal"
-                                            defaultValue={95}
-                                        />
-                                        <div className="inner-text count-box">
-                                            <span className="count-text" data-stop={95} data-speed={2000} />
-                                            %
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="content-box">
-                                    <h4 className="title">Automation Features</h4>
-                                    <p className="text">
-                                        End to end fiber optic cable nnectivity for stable
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div
-                            className="col-xl-4 wow fadeInLeft"
-                            data-wow-delay="400ms"
-                            data-wow-duration="1500ms"
-                        >
-                            <div className="growth-block">
-                                {/* pie-graph */}
-                                <div className="pie-graph">
-                                    <div className="graph-outer">
-                                        <input
-                                            type="text"
-                                            className="dial"
-                                            data-fgcolor="#C6D936"
-                                            data-bgcolor="#fff"
-                                            data-width={120}
-                                            data-height={120}
-                                            data-linecap="normal"
-                                            defaultValue={75}
-                                        />
-                                        <div className="inner-text count-box">
-                                            <span className="count-text" data-stop={75} data-speed={2000} />
-                                            %
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="content-box">
-                                    <h4 className="title">24/7 Support</h4>
-                                    <p className="text">
-                                        End to end fiber optic cable nnectivity for stable
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+                            </Col>
+                        </Row>
                     </div>
                 </div>
             </section>
-
+        
         </>
     )
 }

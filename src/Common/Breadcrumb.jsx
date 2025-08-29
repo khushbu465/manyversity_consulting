@@ -5,7 +5,7 @@ const Breadcrumb = ({title}) => {
     <>
       <section
         className="page-title"
-        style={{ backgroundImage: "url(images/bg/page-title-bg.jpg)" }}
+        style={{ backgroundImage: "url(https://www.globalcareercounsellor.com/blog/wp-content/uploads/2021/12/Start-an-Overseas-Education-Consultancy-1.jpg)" }}
       >
         <div className="auto-container">
           <div className="title-outer">
