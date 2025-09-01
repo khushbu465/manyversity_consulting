@@ -39,8 +39,8 @@ const Header = () => {
                                         <li><Link to="/student_guardian_visa">Student Guardian Visa Subclass 590</Link></li>
                                         <li><Link to="/training_visa_407">Training Visa (Subclass 407)</Link></li>
                                         <li><Link to="/student_extension">Student Extension</Link></li>
-                                        <li><Link to="/student_visa_information">Student Subsequent visa to Student visa</Link></li>
-                                        <li><Link to="/student_subsequent_visa">Student Visa Information</Link></li>
+                                        <li><Link to="/student_subsequent_visa">Student Subsequent visa to Student visa</Link></li>
+                                        <li><Link to="/student_visa_information">Student Visa Information</Link></li>
                                     </ul>
                                 </li>
 

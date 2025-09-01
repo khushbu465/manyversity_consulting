@@ -3,7 +3,8 @@ import Breadcrumb from '../../Common/Breadcrumb'
 const Student_visa_information = () => {
     return (
         <>
-            <Breadcrumb title="Student Subsequent Visa To Student Visa" />
+          <Breadcrumb title="Student  Visa Information" />
+            
             <section className="about-section-three pt-60 pb-20">
                 <div className="container">
                     <div className="row g-5 g-xxl-0">
