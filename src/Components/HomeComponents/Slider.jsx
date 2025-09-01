@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
 import { Col, Container, Row } from 'reactstrap'
 
@@ -10,14 +9,18 @@ const Slider = () => {
                     <Row className=" g-0 align-items-end">
                         <Col xl={8} className=" content-column">
                             <div className="inner-column">
+                                <div className='top_content'>
+                                    <h4 className='text-light'>Education Abroad   </h4>
+                                    <img src="/images/aeroplane.png" alt="aeroplane img" style={{ height: '100px' }} />
+                                </div>
                                 <h1 className="title wow splt-txt" data-splitting="">
-                                    <span className="font-weight-400 d-block">Transform your future with  </span>
-                                   expert guidance, hassle-free admissions, and personalized <br/> study abroad support
+                                    <span className="font-weight-400 d-block">Expert Education Consulting  </span>
                                 </h1>
                                 <p className="text wow fadeInLeft" data-wow-delay="00ms" data-wow-duration="1500ms" >
-                                    Unlock world-class education and endless career opportunities.
+                                    Fulfill your Study Abroad dream with expert guidance — from choosing the
+                                    right university and course to handling applications, visa support, and pre-departure counseling.
                                 </p>
-                                <div className="btn-wrp">
+                                <div className="btn-wrp pb-90">
                                     <Link className="btn-one-rounded wow fadeInLeft" data-wow-delay="200ms"
                                         data-wow-duration="1500ms" to="/"  >
                                         Book a Consultation <i className="fa-regular fa-angle-right" />

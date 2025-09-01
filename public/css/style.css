@@ -274,12 +274,34 @@ h5 {
 }
 
 /* ___________newcss_____ */
+.top_content h4 {
+  font-family: var(--title-font);
+  font-weight: 400 !important;
+  color: white;
+}
+
+.top_content img {
+  animation: flyaeroplane 10s infinite ease-in-out;
+}
+
+@keyframes flyaeroplane {
+  1% {
+    transform: translate(0px, 0px);
+  }
+
+  100% {
+    transform: translate(580px, -180px);
+  }
+}
+
 .text_green {
   color: var(--theme-color1) !important;
 }
-.text_list li{
+
+.text_list li {
   list-style-type: circle;
 }
+
 p {
   color: #c0bebe;
 }
@@ -7118,7 +7140,7 @@ Section Title
 .banner-section-three {
   position: relative;
   z-index: 1;
-  padding: 180px 0;
+  padding: 50px 0;
   margin-left: 60px;
 }
 
