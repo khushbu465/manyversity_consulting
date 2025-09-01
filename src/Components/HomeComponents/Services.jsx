@@ -9,54 +9,57 @@ const Services = () => {
             id: 1,
             icon: "images/icon/student_v.png",
             alt: "Student Visa",
-            title: "Student Visa Assistance",
-            text: "Achieve your dream of studying abroad with our expert visa guidance. From documentation to approvals, we ensure a smooth and stress-free process.",
-            link: "/",
+            title: "Student Subsequent Entrant Visa (Subclass 500)",
+            text: "Join your family member studying in Australia with a dependent student visa.",
+            link: "/student-subsequent-entrant-visa",
             delay: "00ms"
         },
+
         {
             id: 2,
-            icon: "images/icon/partner_visa.webp",
-            alt: "Partner Visa",
-            title: "Partner / Spouse Visa",
-            text: "Stay connected with your loved ones while studying or working abroad. We specialize in partner and spouse visa applications with reliable support.",
-            link: "/",
-            delay: "200ms"
-        },
-        {
-            id: 3,
-            icon: "images/icon/business.png",
-            alt: "Business Visa",
-            title: "Business & Investor Visa",
-            text: "Expand your horizons with global opportunities. We guide entrepreneurs and investors through the visa process to establish and grow businesses abroad.",
-            link: "/",
+            icon: "images/icon/student_v.png",
+            alt: "Guardian Visa",
+            title: "Student Guardian Visa (Subclass 590)",
+            text: "Parents/guardians can accompany students with this visa option.",
+            link: "/student-guardian-visa-590",
             delay: "400ms"
         },
         {
-            id: 4,
-            icon: "images/icon/visa-refusal.png",
-            alt: "Visa Refusal",
-            title: "Visa Refusal & Appeals",
-            text: "Has your visa been refused or canceled? Don’t worry! Our experts help with appeals and reapplications to maximize your chances of approval.",
-            link: "/",
-            delay: "600ms"
-        },
-        {
-            id: 5,
-            icon: "images/icon/university.png",
-            alt: "Course Selection",
-            title: "Course & University Selection",
-            text: "Not sure which course or university is right for you? We provide tailored advice to match your academic goals, budget, and interests.",
-            link: "/",
+            id: 3,
+            icon: "images/icon/student_v.png",
+            alt: "Temporary Graduate Visa",
+            title: "Temporary Graduate Visa (Subclass 485)",
+            text: "Stay and work in Australia after studies with the Subclass 485 visa.",
+            link: "/temporary-graduate-visa-485",
             delay: "800ms"
         },
         {
+            id: 4,
+            icon: "images/icon/student_v.png",
+            alt: "Student Visa Extension",
+            title: "Student Visa Extension",
+            text: "Extend your student visa seamlessly to continue your studies in Australia.",
+            link: "/student-visa-extension",
+            delay: "200ms"
+        },
+        {
+            id: 5,
+            icon: "images/icon/student_v.png",
+            alt: "Professional Year",
+            title: "Professional Year",
+            text: "Boost your career prospects with a professional year program.",
+            link: "/professional-year",
+            delay: "600ms"
+        },
+
+
+        {
             id: 6,
-            icon: "images/icon/pr-pathway.png",
-            alt: "PR Pathway",
-            title: "Permanent Residency Pathways",
-            text: "Looking to settle abroad permanently? We guide you through PR pathways with eligibility checks, documentation, and full application support.",
-            link: "/",
+            icon: "images/icon/student_v.png",
+            alt: "Health Insurance",
+            title: "Health Insurance",
+            text: "Secure your health with international student health insurance plans.",
+            link: "/health-insurance",
             delay: "1000ms"
         }
     ];
@@ -76,7 +79,7 @@ const Services = () => {
                         </h6>
                         <div className="flex-content">
                             <h2 className="title wow splt-txt" data-splitting="">
-                                Your One-Stop Solution for <br /> Study Abroad &  &amp; Visa Services.
+                                Your One-Stop Solution for <br /> Study Abroad  &amp; Visa Services.
                             </h2>
                             <Link
                                 className="btn-one-rounded wow fadeInUp"

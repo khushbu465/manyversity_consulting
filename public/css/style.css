@@ -274,6 +274,18 @@ h5 {
 }
 
 /* ___________newcss_____ */
+td {
+  color: #c0bebe;
+}
+
+th {
+  color: #c0bebe;
+}
+
+.main-menu .navigation>li>ul>li>a {
+  color: #474747 !important;
+}
+
 .top_content h4 {
   font-family: var(--title-font);
   font-weight: 400 !important;

@@ -37,10 +37,10 @@ const Header = () => {
                                         <li><Link to="/student_visa_extension">Student visa extension</Link></li>
                                         <li><Link to="/student_visa_journey">Student visa Journey</Link></li>
                                         <li><Link to="/student_guardian_visa">Student Guardian Visa Subclass 590</Link></li>
-                                        <li><Link to="/">Training Visa (Subclass 407)</Link></li>
-                                        <li><Link to="/">Student Extension</Link></li>
-                                        <li><Link to="/">Student Subsequent visa to Student visa</Link></li>
-                                        <li><Link to="/">Student Visa Information</Link></li>
+                                        <li><Link to="/training_visa_407">Training Visa (Subclass 407)</Link></li>
+                                        <li><Link to="/student_extension">Student Extension</Link></li>
+                                        <li><Link to="/student_visa_information">Student Subsequent visa to Student visa</Link></li>
+                                        <li><Link to="/student_subsequent_visa">Student Visa Information</Link></li>
                                     </ul>
                                 </li>
 
@@ -61,7 +61,7 @@ const Header = () => {
                                         Point Calculator &nbsp;<i className="fa-regular fa-angle-down" />
                                     </NavLink>
                                     <ul>
-                                        <li><Link to="/">Australia</Link></li>
+                                        <li><Link to="https://immi.homeaffairs.gov.au/help-support/tools/points-calculator" target="_blank">Australia</Link></li>
                                     </ul>
                                 </li>
 
