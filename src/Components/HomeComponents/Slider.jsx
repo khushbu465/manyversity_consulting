@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { Col, Container, Row } from 'reactstrap'
+import SplitText from './SplitText';
 
 const Slider = () => {
     const scrolltoTop = () => {
@@ -8,6 +9,7 @@ const Slider = () => {
             behaviour: 'smooth'
         })
     }
+
     return (
         <>
             <section className="banner-section-three">
@@ -19,8 +21,22 @@ const Slider = () => {
                                     <h4 className='text-light'>Education Abroad   </h4>
                                     <img src="/images/aeroplane.png" alt="aeroplane img" style={{ height: '100px' }} />
                                 </div>
+
                                 <h1 className="title " data-aos="fade-down" >
-                                    <span className="font-weight-400 d-block">Expert Education Consulting  </span>
+                                    <SplitText
+                                        text="Expert Education Consulting"
+                                        className=" font-semibold text-center"
+                                        delay={100}
+                                        duration={0.6}
+                                        ease="power3.out"
+                                        splitType="chars"
+                                        from={{ opacity: 0, y: 40 }}
+                                        to={{ opacity: 1, y: 0 }}
+                                        threshold={0.1}
+                                        rootMargin="-100px"
+                                        textAlign="center"
+
+                                    />
                                 </h1>
                                 <p className="text " data-aos="fade-right">
                                     Fulfill your Study Abroad dream with expert guidance — from choosing the

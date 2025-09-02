@@ -306,19 +306,32 @@ p a:not(.button):not(.btn):hover {
 }
 
 /* ________newcss____________ */
-.footerLogo{
+.split-parent {
+    color: #fff;
+    font-weight: 700;
+    font-size: 50px;
+    /* overflow: auto !important; */
+    padding: 20px 0 18px 0px !important;
+    margin-bottom: 0px !important;
+}
+
+
+.footerLogo {
     width: auto !important;
 }
+
 .header-style-three {
     position: sticky !important;
     top: 0 !important;
     z-index: 99999 !important;
 }
+
 @media (max-width:500px) {
-    .slider_img_here img{
+    .slider_img_here img {
         display: none;
     }
 }
+
 .mobile-menu .navigation .dropdown a {
     display: flex;
     justify-content: space-between;
@@ -12397,6 +12410,11 @@ table.tbl-shopping-cart .product-name a {
         font-size: 36px;
         line-height: 50px;
         margin-bottom: 20px
+    }
+
+    .split-parent {
+        font-size: 35px;
+        margin-bottom: 10px;
     }
 
     .banner-section-three .content-column .inner-column .text {

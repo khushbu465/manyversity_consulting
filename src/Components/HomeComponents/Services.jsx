@@ -116,7 +116,7 @@ const Services = () => {
                                             </div>
                                             <div className="block-bg">
                                                 <img
-                                                    src="images/shape/service-block-shape.png"
+                                                    src="images/service-block-shape.png"
                                                     alt="Shape"
                                                 />
                                             </div>
