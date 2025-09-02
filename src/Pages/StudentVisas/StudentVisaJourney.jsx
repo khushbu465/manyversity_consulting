@@ -67,7 +67,7 @@ const StudentVisaJourney = () => {
 
                                     </p>
                                     <p> <strong className='text_green'> 8501 – Health Insurance </strong>
-                                        <ul class="txt_list">
+                                        <ul className="txt_list">
                                             <li>You must maintain valid OSHC while in Australia.</li>
 
                                             <li>You cannot enter before your OSHC begins or remain after it expires.</li>
@@ -76,19 +76,19 @@ const StudentVisaJourney = () => {
                                         </ul>
                                     </p>
                                     <p> <strong className='text_green'>8516 – Maintain Eligibility</strong>
-                                        <ul class="txt_list">
+                                        <ul className="txt_list">
                                             <li>You must continue to meet visa eligibility throughout your stay.</li>
 
 
                                         </ul>
                                     </p>
                                     <p> <strong className='text_green'>8517 – Dependent Education</strong>
-                                        <ul class="txt_list">
+                                        <ul className="txt_list">
                                             <li>If you bring school-aged dependents (children), you must arrange proper schooling if they will stay more than 3 months.</li>
                                         </ul>
                                     </p>
                                     <p> <strong className='text_green'>8532 – Welfare for Students Under 18</strong>
-                                        <ul class="txt_list">
+                                        <ul className="txt_list">
                                             <li>If you are under 18, you must have approved housing, welfare, and support arrangements.</li>
                                             <li>You cannot change these without written approval from your education provider.</li>
                                         </ul>

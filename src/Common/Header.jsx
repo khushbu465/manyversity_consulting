@@ -13,7 +13,6 @@ const Header = () => {
                             </NavLink>
                         </div>
                     </div>
-
                     <div className="nav-outer">
                         <nav className="nav main-menu">
                             <ul className="navigation">
@@ -49,10 +48,10 @@ const Header = () => {
                                         Student Services &nbsp;<i className="fa-regular fa-angle-down" />
                                     </NavLink>
                                     <ul>
-                                        <li><Link to="/">Professional Year</Link></li>
-                                        <li><Link to="/">Admission and Course Change</Link></li>
-                                        <li><Link to="/">Temporary Graduate Visa(485)</Link></li>
-                                        <li><Link to="/">Health Insurance</Link></li>
+                                        <li><Link to="/professional_year">Professional Year</Link></li>
+                                        <li><Link to="/admission_course_change">Admission and Course Change</Link></li>
+                                        <li><Link to="/temporary_graduate_visa">Temporary Graduate Visa(485)</Link></li>
+                                        <li><Link to="https://immi.homeaffairs.gov.au/help-support/meeting-our-requirements/health/adequate-health-insurance" target="_blank">Health Insurance</Link></li>
                                     </ul>
                                 </li>
 

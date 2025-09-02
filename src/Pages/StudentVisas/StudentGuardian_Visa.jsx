@@ -59,7 +59,7 @@ const StudentGuardian_Visa = () => {
                                     <p> <strong className='text_green'>8534 – No Further Stay
                                     </strong>
                                         You cannot apply for most other visas while in Australia, except for:
-                                        <ul class="txt_list">
+                                        <ul className="txt_list">
                                             <li>Subclass 485 (Temporary Graduate Visa)</li>
                                             <li>Subclass 590 (Student Guardian Visa)</li>
                                             <li>A security visa</li>
@@ -68,7 +68,7 @@ const StudentGuardian_Visa = () => {
                                     <p> <strong className='text_green'>8537 – Stay with Student
                                     </strong>
                                         While in Australia, you must:
-                                        <ul class="txt_list">
+                                        <ul className="txt_list">
                                             <li>Stay with the student</li>
                                             <li>Provide suitable accommodation</li>
                                             <li>Ensure their support and welfare</li>

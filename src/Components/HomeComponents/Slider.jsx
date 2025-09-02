@@ -2,6 +2,12 @@ import { Link } from 'react-router-dom'
 import { Col, Container, Row } from 'reactstrap'
 
 const Slider = () => {
+    const scrolltoTop = () => {
+        window.scrollTo({
+            top: 0,
+            behaviour: 'smooth'
+        })
+    }
     return (
         <>
             <section className="banner-section-three">
@@ -13,16 +19,15 @@ const Slider = () => {
                                     <h4 className='text-light'>Education Abroad   </h4>
                                     <img src="/images/aeroplane.png" alt="aeroplane img" style={{ height: '100px' }} />
                                 </div>
-                                <h1 className="title wow splt-txt" data-splitting="">
+                                <h1 className="title " data-aos="fade-down" >
                                     <span className="font-weight-400 d-block">Expert Education Consulting  </span>
                                 </h1>
-                                <p className="text wow fadeInLeft" data-wow-delay="00ms" data-wow-duration="1500ms" >
+                                <p className="text " data-aos="fade-right">
                                     Fulfill your Study Abroad dream with expert guidance — from choosing the
                                     right university and course to handling applications, visa support, and pre-departure counseling.
                                 </p>
                                 <div className="btn-wrp pb-90">
-                                    <Link className="btn-one-rounded wow fadeInLeft" data-wow-delay="200ms"
-                                        data-wow-duration="1500ms" to="/"  >
+                                    <Link className="btn-one-rounded " data-aos="fade-down" data-aos-duration="2000" to="/contact" onClick={scrolltoTop} >
                                         Book a Consultation <i className="fa-regular fa-angle-right" />
                                     </Link>
                                 </div>

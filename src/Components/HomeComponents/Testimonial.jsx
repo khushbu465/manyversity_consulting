@@ -31,7 +31,7 @@ const Testimonial = () => {
     return (
         <>
 
-            <section className="testimonial-section-three">
+            <section className="testimonial-section-three" >
                 <div className="sec-wrp">
                     <div className="sec-shape">
                         <img
@@ -45,10 +45,12 @@ const Testimonial = () => {
                             <div className="row g-5">
                                 <div className="col-xl-7 order-2 order-xl-1">
                                     <div className="sec-title mb-30">
-                                        <h6 className="sub-title">Testimonial</h6>
+                                        <h6 className="sub-title" data-aos="fade-up"
+                                           >Testimonial</h6>
                                         <div className="flex-content">
-                                            <h2 className="title text-white">
-                                               Our Client    <span className="font-weight-300">Reviews </span>
+                                            <h2 className="title text-white" data-aos="fade-up"
+                                               >
+                                                Our Client    <span className="font-weight-300">Reviews </span>
                                             </h2>
                                             <div className="btn-wrp">
                                                 <button className="testimonial-prev-three">
@@ -93,7 +95,7 @@ const Testimonial = () => {
                                     <div className="inner-column">
                                         <figure className="image">
                                             <img
-                                                src="images/testimonial/testimonial-three-image.png"
+                                                src="images/feedback.png"
                                                 alt="Testimonial"
                                             />
                                             <div className="icon">

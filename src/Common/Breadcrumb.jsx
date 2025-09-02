@@ -1,6 +1,7 @@
-import React from 'react'
 
-const Breadcrumb = ({title}) => {
+import { Link } from 'react-router-dom'
+
+const Breadcrumb = ({ title }) => {
   return (
     <>
       <section
@@ -11,11 +12,11 @@ const Breadcrumb = ({title}) => {
           <div className="title-outer">
             <ul className="page-breadcrumb">
               <li>
-                <a href="index.html">Home</a>
+                <Link to="/">Home</Link>
               </li>
               <li>{title}</li>
             </ul>
-            <h1 className="title">{title}</h1>
+            <h1 className="title"  data-aos="fade-up">{title}</h1>
           </div>
         </div>
       </section>

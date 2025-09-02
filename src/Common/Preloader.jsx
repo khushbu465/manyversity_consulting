@@ -3,7 +3,9 @@
 const Preloader = () => {
     return (
         <>
-            <div className="preloader" />
+            <div className="preloader_wrapper" >
+                <div className=" loader" />
+            </div>
         </>
     )
 }

@@ -37,19 +37,18 @@ const Footer = () => {
                                             <div className="widget-content">
                                                 <ul className="user-links">
                                                     <li>
-                                                        <a href="#0">Home</a>
+                                                        <Link to="/" onClick={scrolltoTop}>Home</Link>
                                                     </li>
                                                     <li>
-                                                        <a href="#0">About Us</a>
+                                                        <Link to="/about" onClick={scrolltoTop}>About Us</Link>
                                                     </li>
                                                     <li>
-                                                        <a href="#0">Contact</a>
+                                                        <Link to="/contact" onClick={scrolltoTop}>Contact</Link>
                                                     </li>
-
-
-                                                    <li>
-                                                        <a href="#0">Point Circulator</a>
+                                                       <li>
+                                                        <Link to="/training_visa_407" onClick={scrolltoTop}>Training Visa</Link>
                                                     </li>
+                                                 
                                                 </ul>
                                             </div>
                                         </div>
@@ -60,16 +59,16 @@ const Footer = () => {
                                             <div className="widget-content">
                                                 <ul className="user-links">
                                                     <li>
-                                                        <a href="#0">Student Visa</a>
+                                                        <Link to="/student_visa_extension" onClick={scrolltoTop}>Student visa extension</Link>
                                                     </li>
                                                     <li>
-                                                        <a href="#0">Health Insurance</a>
+                                                        <Link to="/admission_course_change" onClick={scrolltoTop}>Admission and Course Change</Link>
                                                     </li>
                                                     <li>
-                                                        <a href="#0">Student Visa Information</a>
+                                                        <Link to="/student_visa_information" onClick={scrolltoTop}>Student Visa Information</Link>
                                                     </li>
                                                     <li>
-                                                        <a href="#0">Student visa extension</a>
+                                                        <Link to="/student_extension" onClick={scrolltoTop}>Student Extension</Link>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -112,20 +111,20 @@ const Footer = () => {
                     </div>
                     <div className="footer-bottom">
                         <p className="copyright-text">
-                            Copyright © 2025 | All Rights Reserved<a href="#0"> Manyversity </a>
+                            Copyright © 2025 | All Rights Reserved<Link to="/"> Manyversity </Link>
                         </p>
                         <ul className="footer-nav">
                             <li>
-                                <a href="#0"><i className="fa-brands fa-whatsapp"></i></a>
+                                <Link to="/" target="_blank"><i className="fa-brands fa-whatsapp"></i></Link>
                             </li>
                             <li>
-                                <a href="#0"><i className="fa-brands fa-facebook-f"></i></a>
+                                <Link to="https://www.facebook.com/people/ManyVersity/100083388630374/#" target="_blank"><i className="fa-brands fa-facebook-f"></i></Link>
                             </li>
                             <li>
-                                <a href="#0"><i className="fa-brands fa-instagram"></i></a>
+                                <Link to="https://www.instagram.com/manyversity/" target="_blank"><i className="fa-brands fa-instagram"></i></Link>
                             </li>
                             <li>
-                                <a href="#0"><i className="fa-brands fa-x-twitter"></i></a>
+                                <Link to="/" target="_blank"><i className="fa-brands fa-x-twitter"></i></Link>
                             </li>
 
                         </ul>
@@ -144,14 +143,12 @@ const Footer = () => {
                 </div>
                 <div className="box-shape">
                     <div
-                        className="box1 wow slideInUp"
-                        data-wow-delay="200ms"
-                        data-wow-duration="1500ms"
+                        className="box1 "
+                    
                     />
                     <div
-                        className="box2 wow slideInLeft"
-                        data-wow-delay="200ms"
-                        data-wow-duration="1500ms"
+                        className="box2"
+                        
                     />
                 </div>
             </footer>
