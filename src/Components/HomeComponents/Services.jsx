@@ -10,7 +10,7 @@ const Services = () => {
             icon: "images/icon/Student Subsequent Entrant Visa.png",
             wicon: "images/icon/white/Student Subsequent Entrant Visa.png",
             alt: "Student Visa",
-            title: "Student Subsequent Entrant Visa (Subclass 500)",
+            title: "(Subclass 500) Student Visa (Subsequent Entrant) ",
             text: "Join your family member studying in Australia with a dependent student visa.",
             link: "/student_subsequent_dependent_visa_500",
             delay: "00ms"
