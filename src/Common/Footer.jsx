@@ -17,7 +17,7 @@ const Footer = () => {
                                 <div className="footer-widget about-widget">
                                     <div className="logo">
                                         <Link to="/">
-                                            <img src="/logo.png" alt="Logo" />
+                                            <img src="/logo.png" alt="Logo" className="footerLogo"/>
                                         </Link>
                                     </div>
                                     <div className="widget-content">

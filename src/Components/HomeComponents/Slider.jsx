@@ -34,7 +34,7 @@ const Slider = () => {
                             </div>
                         </Col>
                     </Row>
-                    <div className="bg-image tm-gsap-img-parallax">
+                    <div className="bg-image tm-gsap-img-parallax slider_img_here">
                         <img src="https://media.licdn.com/dms/image/v2/C4E1BAQF0vXTujEtQvQ/company-background_10000/company-background_10000/0/1584230326349/bangalore_education_consultancy_cover?e=2147483647&v=beta&t=HoSpL_Dp7ljMnaaMKk0qmpqyLDqQWtTrpSr4-MTDl_I" alt="Image" />
                     </div>
                     <div className="arry">
