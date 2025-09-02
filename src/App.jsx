@@ -6,7 +6,7 @@ import AOS from "aos";
 import "aos/dist/aos.css"; // You need to import the CSS
 
 function App() {
-    useEffect(() => {
+  useEffect(() => {
     AOS.init({
       duration: 1000,
     });
