@@ -1,6 +1,7 @@
 import Breadcrumb from '../../Common/Breadcrumb'
 
 const Training_visa_407 = () => {
+       document.title = 'Training Visa 407 | Study Abroad Education Consulting'
     return (
         <>
             <Breadcrumb title="Training Visa 407" />

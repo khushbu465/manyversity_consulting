@@ -2,6 +2,7 @@ import Breadcrumb from '../../Common/Breadcrumb'
 
 
 const Admission_CourseChange = () => {
+    document.title = 'Admission and Course Change | Study Abroad Education Consulting'
     return (
         <>
             <Breadcrumb title="Admission and Course Change" />
@@ -11,7 +12,7 @@ const Admission_CourseChange = () => {
 
                         <div className="col-xl-12 content-column">
                             <div className="inner-column">
-                                <div  className="info mt-50 wow fadeInUp" data-wow-delay="400ms"  data-wow-duration="1500ms"  >
+                                <div className="info mt-50 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms"  >
                                     <div>
                                         <p>
                                             Many students join courses like MBA, Masters in IT, Master of Teaching,
@@ -27,7 +28,7 @@ const Admission_CourseChange = () => {
                                         </p>
 
                                         <h4 className='text_green'>Some common questions we hear are:</h4>
-                                         <ul className='text_list'>
+                                        <ul className='text_list'>
                                             <li>Are you planning to enroll in a new course?</li>
                                             <li>Do you want to change your field of study or transfer to another college?</li>
                                             <li>Are you thinking about moving from a bachelor’s degree to a master’s program?</li>

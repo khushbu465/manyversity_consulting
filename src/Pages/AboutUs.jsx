@@ -3,6 +3,7 @@ import { Col, Container, Row } from 'reactstrap';
 
 
 const AboutUs = () => {
+    document.title='About Us | Study Abroad Education Consulting'
     return (
         <>
             <Breadcrumb title="About Us" />

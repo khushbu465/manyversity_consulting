@@ -115,7 +115,7 @@ const Footer = () => {
                         </p>
                         <ul className="footer-nav">
                             <li>
-                                <Link to="/" target="_blank"><i className="fa-brands fa-whatsapp"></i></Link>
+                                <Link to="https://wa.link/wfgdqy" target="_blank"><i className="fa-brands fa-whatsapp"></i></Link>
                             </li>
                             <li>
                                 <Link to="https://www.facebook.com/people/ManyVersity/100083388630374/#" target="_blank"><i className="fa-brands fa-facebook-f"></i></Link>
@@ -124,7 +124,7 @@ const Footer = () => {
                                 <Link to="https://www.instagram.com/manyversity/" target="_blank"><i className="fa-brands fa-instagram"></i></Link>
                             </li>
                             <li>
-                                <Link to="/" target="_blank"><i className="fa-brands fa-x-twitter"></i></Link>
+                                <Link to="https://x.com/" target="_blank"><i className="fa-brands fa-x-twitter"></i></Link>
                             </li>
 
                         </ul>

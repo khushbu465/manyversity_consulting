@@ -1,6 +1,7 @@
 import Breadcrumb from '../../Common/Breadcrumb'
 
 const Student_subsequent_visa = () => {
+     document.title = 'Student Subsequent Visa To Student Visa | Study Abroad Education Consulting'
     return (
         <>
           <Breadcrumb title="Student Subsequent Visa To Student Visa" />

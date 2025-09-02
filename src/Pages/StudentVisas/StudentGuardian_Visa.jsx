@@ -1,6 +1,8 @@
 import Breadcrumb from '../../Common/Breadcrumb'
 
 const StudentGuardian_Visa = () => {
+       document.title = 'Student Guardian Visa (Subclass 590) | Study Abroad Education Consulting'
+
     return (
         <>
             <Breadcrumb title="Student Guardian Visa (Subclass 590)" />

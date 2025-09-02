@@ -1,9 +1,10 @@
 import Breadcrumb from '../../Common/Breadcrumb'
 
 const Student_Extension = () => {
+    document.title = 'Student Extension | Study Abroad Education Consulting'
     return (
         <>
-            <Breadcrumb title="Student Extension Visa" />
+            <Breadcrumb title="Student Extension " />
             <section className="about-section-three pt-60 pb-20">
                 <div className="container">
                     <div className="row g-5 g-xxl-0">

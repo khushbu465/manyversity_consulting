@@ -3,6 +3,7 @@ import Breadcrumb from '../Common/Breadcrumb'
 import ContactForm from '../Components/ContactForm'
 
 const Contact = () => {
+    document.title='Contact Us | Study Abroad Education Consulting'
   return (
     <>
       <Breadcrumb title="Contact Us" />

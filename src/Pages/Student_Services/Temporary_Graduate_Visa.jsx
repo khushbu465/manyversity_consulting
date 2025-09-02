@@ -1,6 +1,7 @@
 import Breadcrumb from '../../Common/Breadcrumb'
 
 const Temporary_Graduate_Visa = () => {
+     document.title = 'Temporary Graduate Visa | Study Abroad Education Consulting'
     return (
         <>
             <Breadcrumb title="Temporary Graduate Visa (Subclass 485)" />

@@ -1,6 +1,7 @@
 import Breadcrumb from '../../Common/Breadcrumb'
 
 const Professional_Year = () => {
+       document.title = 'Professional Year Program | Study Abroad Education Consulting'
     return (
         <>
             <Breadcrumb title="Professional Year Program" />
