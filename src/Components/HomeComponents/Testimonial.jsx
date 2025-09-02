@@ -46,10 +46,10 @@ const Testimonial = () => {
                                 <div className="col-xl-7 order-2 order-xl-1">
                                     <div className="sec-title mb-30">
                                         <h6 className="sub-title" data-aos="fade-up"
-                                           >Testimonial</h6>
+                                        >Testimonial</h6>
                                         <div className="flex-content">
                                             <h2 className="title text-white" data-aos="fade-up"
-                                               >
+                                            >
                                                 Our Client    <span className="font-weight-300">Reviews </span>
                                             </h2>
                                             <div className="btn-wrp">
@@ -64,13 +64,14 @@ const Testimonial = () => {
                                     </div>
 
                                     <Swiper
-                                        modules={[Navigation]}
+                                        modules={[Navigation, Autoplay]}
                                         navigation={{
                                             prevEl: ".testimonial-prev-three",
                                             nextEl: ".testimonial-next-three"
                                         }}
                                         spaceBetween={30}
                                         slidesPerView={1}
+                                        autoplay={true}
                                         loop={true}
                                         className="testimonial-slider-three"
                                     >
@@ -90,7 +91,7 @@ const Testimonial = () => {
                                     </Swiper>
                                 </div>
 
-                                {/* Right Column (Image) */}
+
                                 <div className="col-xl-5 order-1 order-xl-2 image-column">
                                     <div className="inner-column">
                                         <figure className="image">
@@ -99,7 +100,7 @@ const Testimonial = () => {
                                                 alt="Testimonial"
                                             />
                                             <div className="icon">
-                                                {/* your SVG */}
+
                                                 <svg
                                                     width={33}
                                                     height={25}
