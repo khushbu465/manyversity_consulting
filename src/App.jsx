@@ -23,7 +23,8 @@ function App() {
 
   return (
     <>
-      {loading ? <Preloader /> : <AllRoutes />}
+      {/* {loading ? <Preloader /> : <AllRoutes />} */}
+      <AllRoutes />
     </>
   )
 }
