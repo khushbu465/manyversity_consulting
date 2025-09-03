@@ -75,8 +75,8 @@ const Contact = () => {
                   </div>
                   <h4 className="title">Mobile No.</h4>
                   <p className="text">
-                    <Link to="tel:+91-8004008123">+91-8004008123</Link>
-                    <Link to="tel:+91-8004008123" style={{ visibility: 'hidden' }}>+91-8004008123</Link>
+                    <Link to="tel:+91-8004008123">+91-800 400 8123</Link>
+                    <Link to="tel:+91-8004008123" style={{ visibility: 'hidden' }}>+91-800 400 8123</Link>
                   </p>
                 </div>
               </div>
