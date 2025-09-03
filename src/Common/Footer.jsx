@@ -99,7 +99,7 @@ const Footer = () => {
                                                     </li>
                                                     <li>
                                                         <i className="fa-light fa-phone-flip" />
-                                                        <a href="tel:+91-8004008123">+91-8004008123</a>
+                                                        <a href="tel:+91-8004008123">+91-800 400 8123</a>
                                                     </li>
                                                 </ul>
                                             </div>

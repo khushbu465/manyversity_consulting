@@ -4,7 +4,8 @@ import AllRoutes from "./AllRoutes/AllRoutes"
 import Preloader from "./Common/Preloader";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You need to import the CSS
-
+  import { ToastContainer } from 'react-toastify';
+  
 function App() {
   useEffect(() => {
     AOS.init({
@@ -23,6 +24,7 @@ function App() {
 
   return (
     <>
+      <ToastContainer />
       {/* {loading ? <Preloader /> : <AllRoutes />} */}
       <AllRoutes />
     </>

@@ -1,36 +1,63 @@
 import { Form, FormGroup, Input, Button, FormFeedback, Label } from "reactstrap";
 import React, { useState } from "react";
+import { toast } from 'react-toastify';
+
 const ContactForm = () => {
     const [formData, setFormData] = useState({
-        form_name: "",
-        form_email: "",
-        form_mobile: "",
-        form_message: ""
+        name: "",
+        email: "",
+        mobile: "",
+        message: ""
     });
 
     const handleChange = (e) => {
         const { name, value } = e.target;
         setFormData((prev) => ({ ...prev, [name]: value }));
     };
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
         if (e.target.checkValidity()) {
-            console.log("Form submitted:", formData);
+            const payload = {
+                name: formData.name,
+                mobile: formData.mobile,
+                email: formData.email,
+                message: formData.message,
+            }
+            const response = await fetch('https://api.manyversity.com/visitors/contact_studyabroad', {
+                method: "POST",
+                headers: {
+                    Accept: "application/json",
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify(payload)
+            });
+            const result = await response.json()
+            if (result.status === 1) {
+                toast.success(result.message);
+                setFormData({
+                    name: "",
+                    email: "",
+                    mobile: "",
+                    message: ""
+                });
+            } else {
+                toast.error(result.message)
+            }
         } else {
             e.target.classList.add('was-validated')
         }
-
     }
     return (
         <>
+
             <Form id="contact_form" noValidate onSubmit={handleSubmit}>
                 <FormGroup>
                     <Input
-                        id="form_name"
-                        name="form_name"
+                        id="name"
+                        name="name"
                         type="text" required
                         placeholder="Your Name*"
-                        value={formData.form_name}
+                        value={formData.name}
                         onChange={handleChange}
                     />
                     <FormFeedback>Name is required.</FormFeedback>
@@ -38,11 +65,11 @@ const ContactForm = () => {
 
                 <FormGroup>
                     <Input
-                        id="form_email"
-                        name="form_email"
+                        id="email"
+                        name="email"
                         type="email"
                         placeholder="Email Address*" required
-                        value={formData.form_email}
+                        value={formData.email}
                         onChange={handleChange}
                     />
                     <FormFeedback>
@@ -51,11 +78,11 @@ const ContactForm = () => {
                 </FormGroup>
                 <FormGroup>
                     <Input
-                        id="form_mobile"
-                        name="form_mobile"
-                        type="email"
+                        id="mobile"
+                        name="mobile"
+                        type="number"
                         placeholder="Mobile No.*" required
-                        value={formData.form_mobile}
+                        value={formData.mobile}
                         onChange={handleChange}
                     />
                     <FormFeedback>
@@ -65,11 +92,11 @@ const ContactForm = () => {
 
                 <FormGroup>
                     <Input
-                        id="form_message"
-                        name="form_message"
+                        id="message"
+                        name="message"
                         type="textarea" required
                         placeholder="Enter Your Message here"
-                        value={formData.form_message}
+                        value={formData.message}
                         onChange={handleChange}
                     />
                     <FormFeedback>Message is required.</FormFeedback>

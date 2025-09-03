@@ -11,6 +11,12 @@ const Header = () => {
     };
     const onClose = () => {
         setMobileMenu(false)
+    };
+    const scrolltoTop = () => {
+        window.scrollTo({
+            top: 0,
+            behaviour:'smooth'
+        })
     }
     return (
         <>
@@ -28,37 +34,37 @@ const Header = () => {
                     <div className="nav-outer">
                         <nav className="nav main-menu">
                             <ul className="navigation">
-                                <li> <NavLink to="/">     Home  </NavLink> </li>
-                                <li>  <NavLink to="/about">      About Us  </NavLink>  </li>
+                                <li> <NavLink to="/" onClick={scrolltoTop}>     Home  </NavLink> </li>
+                                <li>  <NavLink to="/about" onClick={scrolltoTop}>      About Us  </NavLink>  </li>
                                 <li className="dropdown">
                                     <NavLink to="/"> Student Visa &nbsp;<i className="fa-regular fa-angle-down" />     </NavLink>
                                     <ul>
-                                        <li><Link to="/student_subsequent_dependent_visa_500">Student Subsequent Entrant Visa Student Dependent Visa (Subclass 500)</Link></li>
-                                        <li><Link to="/student_visa_extension">Student visa extension</Link></li>
-                                        <li><Link to="/student_visa_journey">Student visa Journey</Link></li>
-                                        <li><Link to="/student_guardian_visa">Student Guardian Visa Subclass 590</Link></li>
-                                        <li><Link to="/training_visa_407">Training Visa (Subclass 407)</Link></li>
-                                        <li><Link to="/student_extension">Student Extension</Link></li>
-                                        <li><Link to="/student_subsequent_visa">Student Subsequent visa to Student visa</Link></li>
-                                        <li><Link to="/student_visa_information">Student Visa Information</Link></li>
+                                        <li><Link onClick={scrolltoTop} to="/student_subsequent_dependent_visa_500">Student Subsequent Entrant Visa Student Dependent Visa (Subclass 500)</Link></li>
+                                        <li><Link onClick={scrolltoTop} to="/student_visa_extension">Student visa extension</Link></li>
+                                        <li><Link onClick={scrolltoTop} to="/student_visa_journey">Student visa Journey</Link></li>
+                                        <li><Link onClick={scrolltoTop} to="/student_guardian_visa">Student Guardian Visa Subclass 590</Link></li>
+                                        <li><Link onClick={scrolltoTop} to="/training_visa_407">Training Visa (Subclass 407)</Link></li>
+                                        <li><Link onClick={scrolltoTop} to="/student_extension">Student Extension</Link></li>
+                                        <li><Link onClick={scrolltoTop} to="/student_subsequent_visa">Student Subsequent visa to Student visa</Link></li>
+                                        <li><Link onClick={scrolltoTop} to="/student_visa_information">Student Visa Information</Link></li>
                                     </ul>
                                 </li>
                                 <li className="dropdown">
                                     <NavLink to="/">  Student Services &nbsp;<i className="fa-regular fa-angle-down" /> </NavLink>
                                     <ul>
-                                        <li><Link to="/professional_year">Professional Year</Link></li>
-                                        <li><Link to="/admission_course_change">Admission and Course Change</Link></li>
-                                        <li><Link to="/temporary_graduate_visa">Temporary Graduate Visa(485)</Link></li>
-                                        <li><Link to="https://immi.homeaffairs.gov.au/help-support/meeting-our-requirements/health/adequate-health-insurance" target="_blank">Health Insurance</Link></li>
+                                        <li><Link onClick={scrolltoTop} to="/professional_year">Professional Year</Link></li>
+                                        <li><Link onClick={scrolltoTop} to="/admission_course_change">Admission and Course Change</Link></li>
+                                        <li><Link onClick={scrolltoTop} to="/temporary_graduate_visa">Temporary Graduate Visa(485)</Link></li>
+                                        <li><Link onClick={scrolltoTop} to="https://immi.homeaffairs.gov.au/help-support/meeting-our-requirements/health/adequate-health-insurance" target="_blank">Health Insurance</Link></li>
                                     </ul>
                                 </li>
                                 <li className="dropdown">
                                     <NavLink to="/">  Point Calculator &nbsp;<i className="fa-regular fa-angle-down" />  </NavLink>
                                     <ul>
-                                        <li><Link to="https://immi.homeaffairs.gov.au/help-support/tools/points-calculator" target="_blank">Australia</Link></li>
+                                        <li><Link onClick={scrolltoTop} to="https://immi.homeaffairs.gov.au/help-support/tools/points-calculator" target="_blank">Australia</Link></li>
                                     </ul>
                                 </li>
-                                <li>  <NavLink to="/contact">   Contact </NavLink>  </li>
+                                <li>  <NavLink to="/contact" onClick={scrolltoTop}>   Contact </NavLink>  </li>
                             </ul>
                         </nav>
                     </div>
@@ -122,7 +128,7 @@ const Header = () => {
                                                 </ul>
                                                 : ''}
                                         </li>
-                                        <li>  <NavLink to="/contact">   Contact </NavLink>  </li>
+                                        <li>  <NavLink to="/contact" onClick={onClose}>   Contact </NavLink>  </li>
                                     </ul>
                                 </ul>
                                 <ul className="social-links">
