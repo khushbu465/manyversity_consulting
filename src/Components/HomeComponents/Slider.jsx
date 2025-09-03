@@ -18,13 +18,11 @@ const Slider = () => {
                         <Col xl={8} className=" content-column">
                             <div className="inner-column">
                                 <div className='top_content'>
-                                    <h4 className='text-light'>Education Abroad   </h4>
                                     <img src="/images/aeroplane.png" alt="aeroplane img" style={{ height: '100px' }} />
                                 </div>
-
-                                <h1 className="title " data-aos="fade-down" >
+                                <h1 className="title mb-2" data-aos="fade-down">
                                     <SplitText
-                                        text="Expert Education Consulting"
+                                        text="Education Abroad"
                                         className=" font-semibold text-center"
                                         delay={100}
                                         duration={0.6}
@@ -35,9 +33,9 @@ const Slider = () => {
                                         threshold={0.1}
                                         rootMargin="-100px"
                                         textAlign="center"
-
                                     />
                                 </h1>
+                                <h4 className='text-light mb-2 font-weight-300'>  Expert Education Consulting</h4>
                                 <p className="text " data-aos="fade-right">
                                     Fulfill your Study Abroad dream with expert guidance — from choosing the
                                     right university and course to handling applications, visa support, and pre-departure counseling.

@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
 import Consulting from './Consulting';
 import Client from './Client';
@@ -10,18 +9,19 @@ const Services = () => {
             icon: "images/icon/Student Subsequent Entrant Visa.png",
             wicon: "images/icon/white/Student Subsequent Entrant Visa.png",
             alt: "Student Visa",
-            title: "(Subclass 500) Student Visa (Subsequent Entrant) ",
+            title: "Subclass 500",
+            bottomtxt: " Student (Subsequent Entrant) ",
             text: "Join your family member studying in Australia with a dependent student visa.",
             link: "/student_subsequent_dependent_visa_500",
             delay: "00ms"
         },
-
         {
             id: 2,
             icon: "images/icon/Student Guardian Visa.png",
             wicon: "images/icon/white/Student Guardian Visa.png",
             alt: "Guardian Visa",
-            title: "Student Guardian Visa (Subclass 590)",
+            title: "Subclass 590",
+            bottomtxt: "Student Guardian ",
             text: "Parents/guardians can accompany students with this visa option.",
             link: "/student_guardian_visa",
             delay: "400ms"
@@ -31,7 +31,8 @@ const Services = () => {
             icon: "images/icon/Temporary Graduate Visa.png",
             wicon: "images/icon/white/Temporary Graduate Visa.png",
             alt: "Temporary Graduate Visa",
-            title: "Temporary Graduate Visa (Subclass 485)",
+            title: "Subclass 485",
+            bottomtxt: "Temporary Graduate",
             text: "Stay and work in Australia after studies with the Subclass 485 visa.",
             link: "/temporary_graduate_visa",
             delay: "800ms"
@@ -67,10 +68,10 @@ const Services = () => {
             delay: "1000ms"
         }
     ];
-   const scrolltoTop = () => {
+    const scrolltoTop = () => {
         window.scrollTo({
             top: 0,
-            behaviour:'smooth'
+            behaviour: 'smooth'
         })
     }
     return (
@@ -86,8 +87,8 @@ const Services = () => {
                             Services
                         </h6>
                         <div className="flex-content">
-                            <h2 className="title wow splt-txt" >
-                                Your One-Stop Solution for <br /> Study Abroad  &amp; Visa Services.
+                            <h2 className="title" >
+                                Your One-Stop Solution for <br /> Study Abroad  &amp; Visa Services
                             </h2>
                         </div>
                     </div>
@@ -97,7 +98,7 @@ const Services = () => {
                             {servicesData.map((service) => (
                                 <div
                                     key={service.id}
-                                    className="col-md-6 col-xl-4 " data-aos="zoom-in"
+                                    className="col-md-6 col-xl-4 rounded-3 p-2" data-aos="zoom-in"
                                     data-aos-delay={service.delay}
                                     data-aos-duration="1500ms"
                                 >
@@ -108,7 +109,7 @@ const Services = () => {
                                                 <img src={service.wicon} alt={service.alt} className='hoverIcon' />
                                             </div>
                                             <div className="content-box">
-                                                <h4 className="title">{service.title}</h4>
+                                                <h4 className="title">{service.title} <br />{service.bottomtxt}</h4>
                                                 <p className="text">{service.text}</p>
                                                 <Link onClick={scrolltoTop} className="btn-two-rounded" to={service.link}>
                                                     learn more
